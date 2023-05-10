@@ -1,0 +1,57 @@
+{
+  "$id": "https://gcn.nasa.gov/schema/gcn/notices/fermi/gbm/TargetedSearch.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Targeted Search Candidate Notice",
+  "description": "Candidate gamma-ray transient reported from the GBM Targeted Search",
+  "type": "object",
+  "anyOf": [
+    {
+      "$ref": "/schema/gcn/notices/core/Alert.schema.json"
+    },
+    {
+      "$ref": "/schema/gcn/notices/core/Event.schema.json"
+    },
+    {
+      "$ref": "/schema/gcn/notices/core/DateTime.schema.json"
+    },
+    {
+      "$ref": "/schema/gcn/notices/core/Localization.schema.json"
+    },
+    {
+      "$ref": "/schema/gcn/notices/core/Statistics.schema.json"
+    },
+    {
+      "$ref": "/schema/gcn/notices/core/Reporter.schema.json"
+    },
+    {
+      "$ref": "/schema/gcn/notices/core/AdditionalInfo.schema.json"
+    }
+  ],
+  "properties": {
+    "loglr": {
+      "type": "number",
+      "description": "Marginalized log-likelihood ratio of the candidate."
+    },
+    "earth_angle": {
+      "type": "number",
+      "description": "Angle between the source location and the center of the Earth [deg]"
+    },
+    "sun_angle": {
+      "type": "number",
+      "description": "Angle between the source location and the center of the Sun [deg]"
+    },
+    "spectral_class": {
+      "enum": ["hard", "norm", "soft", "blackbody"],
+      "description": "Enum specifying classification of soft or hard spectral classification"
+    },
+    "follow_up_event": {
+      "type": "string",
+      "description": "Name or trigger time of the external trigger being followed"
+    },
+    "follow_up_type": {
+      "type": "string",
+      "description": "Type of follow-up being performed, e.g. gw_alert, IceCube Gold/Bronze"
+    }
+  },
+  "unevaluatedProperties": false
+}

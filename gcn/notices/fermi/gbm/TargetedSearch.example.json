@@ -1,0 +1,43 @@
+{
+  "$schema": "https://gcn.nasa.gov/schema/gcn/notices/fermi/gbm/TargetedSearch.schema.json",
+
+  "datetime_of_notice": "2023-05-10T23:24:15.850770Z",
+  "alert_tense": "current",
+  "alert_type": "initial",
+
+  "mission": "Fermi",
+  "instrument": "GBM-Targeted-Private",
+  "messenger": "EM",
+
+  "id": [699554499710, 20512],
+
+  "trigger_time": "2023-03-03T16:41:34",
+  "observation_start": "2023-03-03T16:40:52",
+  "observation_stop": "2023-03-03T16:41:52",
+  "observation_livetime": 60.0,
+
+  "ra": 3.867,
+  "dec": -10.807,
+  "dec_uncertainty": [31.903],
+  "uncertainty_shape": "circle",
+  "containment_probability": 0.68,
+  "systematic_included": true,
+  "instrument_phi": "289.565", 
+  "instrument_theta": "40.0",
+  "healpix_file": "hhhh...",
+
+  "far": "0.0012",
+  "rate_snr": "5.328548092205031",
+  "rate_duration": "0.512",
+  "rate_energy_range": [10, 40000],
+
+  "loglr": 8.855,
+  "sun_angle": 119.271,
+  "earth_angle": 133.102,
+  "spectral_class": "norm",
+  "follow_up_event": "MS230303q",
+  "follow_up_type": "gw_alert",
+
+  "additional_info": "Candidate gamma-ray transient from Fermi-GBM Targeted Search of an external trigger time"
+
+}
