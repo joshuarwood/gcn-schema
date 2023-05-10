@@ -1,7 +1,7 @@
 {
   "$schema": "https://gcn.nasa.gov/schema/gcn/notices/fermi/gbm/TargetedSearch.schema.json",
 
-  "datetime_of_notice": "2023-05-10T23:24:15.850770Z",
+  "datetime_of_notice": "2023-03-03T23:01:52Z",
   "alert_tense": "current",
   "alert_type": "initial",
 
@@ -11,9 +11,9 @@
 
   "id": [699554499710, 20512],
 
-  "trigger_time": "2023-03-03T16:41:34",
-  "observation_start": "2023-03-03T16:40:52",
-  "observation_stop": "2023-03-03T16:41:52",
+  "trigger_time": "2023-03-03T16:41:34Z",
+  "observation_start": "2023-03-03T16:40:52Z",
+  "observation_stop": "2023-03-03T16:41:52Z",
   "observation_livetime": 60.0,
 
   "ra": 3.867,
