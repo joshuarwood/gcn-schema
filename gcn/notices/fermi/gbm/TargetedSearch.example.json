@@ -22,13 +22,13 @@
   "uncertainty_shape": "circle",
   "containment_probability": 0.68,
   "systematic_included": true,
-  "instrument_phi": "289.565", 
-  "instrument_theta": "40.0",
+  "instrument_phi": 289.565,
+  "instrument_theta": 40.0,
   "healpix_file": "hhhh...",
 
-  "far": "0.0012",
-  "rate_snr": "5.328548092205031",
-  "rate_duration": "0.512",
+  "far": 0.0012,
+  "rate_snr": 5.328548092205031,
+  "rate_duration": 0.512,
   "rate_energy_range": [10, 40000],
 
   "loglr": 8.855,
