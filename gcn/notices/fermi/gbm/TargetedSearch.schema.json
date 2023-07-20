@@ -24,6 +24,9 @@
       "$ref": "../../core/Reporter.schema.json"
     },
     {
+      "$ref": "../../core/FollowUp.schema.json"
+    },
+    {
       "$ref": "../../core/AdditionalInfo.schema.json"
     }
   ],
@@ -44,14 +47,6 @@
     "spectral_class": {
       "enum": ["hard", "norm", "soft", "blackbody"],
       "description": "Enum specifying classification of soft or hard spectral classification"
-    },
-    "follow_up_event": {
-      "type": "string",
-      "description": "Name or trigger time of the external trigger being followed"
-    },
-    "follow_up_type": {
-      "type": "string",
-      "description": "Type of follow-up being performed, e.g. gw_alert, IceCube Gold/Bronze"
     }
   },
   "unevaluatedProperties": false
