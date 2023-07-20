@@ -1,5 +1,5 @@
 {
-  "$id": "https://gcn.nasa.gov/schema/gcn/notices/core/Event.schema.json",
+  "$id": "https://gcn.nasa.gov/schema/main/gcn/notices/core/Event.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "title": "Event Information",
@@ -12,10 +12,6 @@
     "id": {
       "type": "array",
       "description": "Instrument-specific trigger ID (ex: bn230313485 (Fermi), 1159327 (Swift)) or alternate ID"
-    },
-    "id_source": {
-      "type": "array",
-      "description": "Source of trigger ID"
     },
     "data_archive_page": {
       "type": "string",
