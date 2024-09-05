@@ -1,5 +1,5 @@
 {
-  "$schema": "https://gcn.nasa.gov/schema/main/gcn/notices/swift/bat/guano/alert.schema.json",
+  "$schema": "https://gcn.nasa.gov/schema/main/gcn/notices/swift/bat/Guano.schema.json",
   "mission": "Swift",
   "instrument": "BAT-GUANO",
   "messenger": "EM",
@@ -10,7 +10,7 @@
   "trigger_time": "2022-12-31T21:46:05.13Z",
   "ra": 336.26,
   "dec": 25.139,
-  "ra_uncertainty": [0.05],
+  "ra_dec_error": 0.5,
   "containment_probability": 0.9,
   "systematic_included": true,
   "rate_snr": 15.8,
@@ -19,9 +19,7 @@
   "image_snr": 13.94,
   "image_duration": 0.256,
   "image_energy_range": [15, 350],
-  "classification": {
-    "GRB": 1
-  },
+  "classification": { "GRB": 1 },
   "far": 0.00001,
   "follow_up_event": "Fermi 694215970",
   "follow_up_type": "GRB",

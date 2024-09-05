@@ -1,6 +1,9 @@
 {
   "$schema": "https://gcn.nasa.gov/schema/main/gcn/notices/core/Statistics.schema.json",
   "far": 0.001,
+  "trigger_type": "rate",
+  "net_count_rate": 2000,
+  "background_count_rate": 250,
   "rate_snr": 5.2,
   "rate_duration": 10,
   "rate_energy_range": [100, 1000],
@@ -8,13 +11,6 @@
   "image_duration": 30,
   "image_energy_range": [50, 500],
   "p_astro": 0.8,
-  "classification": {
-    "BNS": 0.9,
-    "NSBH": 0.05,
-    "BBH": 0.05
-  },
-  "properties": {
-    "NS": 0.95,
-    "REMNANT": 0.05
-  }
+  "classification": { "BNS": 0.9, "NSBH": 0.05, "BBH": 0.05 },
+  "properties": { "NS": 0.95, "REMNANT": 0.05 }
 }
